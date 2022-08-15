@@ -1,0 +1,28 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	min-height: 100vh;
+	overflow: hidden;
+	background: #fff;
+}
+
+.container {
+	position: relative;
+	min-height: 100vh;
+	display: flex;
+	flex-wrap: wrap;
+	transform-style: preserve-3d;
+	perspective: 1000px;
+}
+
+.container span {
+	position: absolute;
+	background-image: url(bg.jpg);
+	background-size: cover;
+	background-position: center;
+	inset: 0;
+}
